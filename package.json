@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "A node js API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAHILSODHI/NodeJs.git"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "Sahil Singh Sodhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SAHILSODHI/NodeJs/issues"
+  },
+  "homepage": "https://github.com/SAHILSODHI/NodeJs#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.26",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
